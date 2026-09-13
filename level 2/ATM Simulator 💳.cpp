@@ -15,7 +15,7 @@ struct Account {
 // Represents a customer with card number, PIN, and two accounts (savings and current)
 struct Customer {
     string cardNumber;
-    int pin;
+    string pin;
 
     Account savings;
     Account current;
@@ -26,7 +26,7 @@ struct Customer {
 int createAccount(vector<Customer>& database) {
 
     string cardNumber;
-    int pin;
+    string pin;
 
     cout << "Enter your new card number: ";
     cin >> cardNumber;
@@ -51,7 +51,7 @@ int createAccount(vector<Customer>& database) {
 int login(const vector<Customer>& database) {
 
     string cardNumber;
-    int pin;
+    string  pin;
 
     cout << "Enter your card number: ";
     cin >> cardNumber;
