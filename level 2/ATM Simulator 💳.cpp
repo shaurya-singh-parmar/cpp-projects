@@ -28,9 +28,10 @@ int createAccount(vector<Customer>& database) {
     string cardNumber;
     string pin;
 
-    cout << "Enter your new card number: ";
-    cin >> cardNumber;
-
+    cout << "You'r new card number will be generated automatically." << endl;
+    time_t t = time(nullptr);
+    cardNumber = to_string(t);
+    cout << "Your new card number is: " << cardNumber << endl;
     cout << "Enter your new PIN: ";
     cin >> pin;
 
