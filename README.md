@@ -10,7 +10,7 @@ This repository contains all the projects I build while learning C++.
 - 🎯 Number Guessing Game
 
 ### Level 2 — Beginner+
-- Coming soon...
+- Banking Simulator
 
 ### Level 3 — Intermediate
 - Coming soon...
